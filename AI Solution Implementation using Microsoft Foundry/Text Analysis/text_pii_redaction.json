@@ -1,0 +1,225 @@
+{
+  "documents": [
+    {
+      "redactedText": "Dear ***/*****, \nMy name is *********** and I visited ****************** with my ****** for our anniversary on *********************. Prior to my visit, I had heard great things about your food and service from my *********, as I actually live right down the street from you at ************************. After a lovely stroll along the *****************, we decided to go for dinner at a place we heard so many good things about. When we got to the ********** *************, we had to wait for 15 minutes just to get on the waiting list. After an hour of waiting to be seated, we ordered two Surf and turf platters. To our absolute surprise, the food was very cold and dry. The whole experience was just quite awful, and I feel like we are owed a refund and an apology for that day. I would appreciate it if you could call me on my number ************.",
+      "id": "1",
+      "entities": [
+        {
+          "text": "Sir",
+          "category": "PersonType",
+          "type": "PersonType",
+          "offset": 5,
+          "length": 3,
+          "mask": "***",
+          "maskOffset": 5,
+          "maskLength": 3,
+          "confidenceScore": 0.98,
+          "tags": [
+            {
+              "name": "PersonType",
+              "confidenceScore": 0.98
+            }
+          ]
+        },
+        {
+          "text": "Madam",
+          "category": "PersonType",
+          "type": "PersonType",
+          "offset": 9,
+          "length": 5,
+          "mask": "*****",
+          "maskOffset": 9,
+          "maskLength": 5,
+          "confidenceScore": 0.88,
+          "tags": [
+            {
+              "name": "PersonType",
+              "confidenceScore": 0.88
+            }
+          ]
+        },
+        {
+          "text": "Mateo Gomez",
+          "category": "Person",
+          "type": "Person",
+          "offset": 28,
+          "length": 11,
+          "mask": "***********",
+          "maskOffset": 28,
+          "maskLength": 11,
+          "confidenceScore": 1,
+          "tags": [
+            {
+              "name": "Person",
+              "confidenceScore": 1
+            }
+          ]
+        },
+        {
+          "text": "Contoso Restaurant",
+          "category": "Location",
+          "type": "Location",
+          "offset": 54,
+          "length": 18,
+          "mask": "******************",
+          "maskOffset": 54,
+          "maskLength": 18,
+          "confidenceScore": 0.93,
+          "tags": [
+            {
+              "name": "Location",
+              "confidenceScore": 0.93
+            }
+          ]
+        },
+        {
+          "text": "spouse",
+          "category": "PersonType",
+          "type": "PersonType",
+          "offset": 81,
+          "length": 6,
+          "mask": "******",
+          "maskOffset": 81,
+          "maskLength": 6,
+          "confidenceScore": 0.95,
+          "tags": [
+            {
+              "name": "PersonType",
+              "confidenceScore": 0.95
+            }
+          ]
+        },
+        {
+          "text": "Thursday of last week",
+          "category": "DateTime",
+          "type": "Date",
+          "offset": 111,
+          "length": 21,
+          "mask": "*********************",
+          "maskOffset": 111,
+          "maskLength": 21,
+          "confidenceScore": 0.97,
+          "tags": [
+            {
+              "name": "Date",
+              "confidenceScore": 0.97
+            },
+            {
+              "name": "DateTime",
+              "confidenceScore": 0.97
+            }
+          ]
+        },
+        {
+          "text": "neighbors",
+          "category": "PersonType",
+          "type": "PersonType",
+          "offset": 214,
+          "length": 9,
+          "mask": "*********",
+          "maskOffset": 214,
+          "maskLength": 9,
+          "confidenceScore": 0.98,
+          "tags": [
+            {
+              "name": "PersonType",
+              "confidenceScore": 0.98
+            }
+          ]
+        },
+        {
+          "text": "1234 Hollywood Boulevard",
+          "category": "Address",
+          "type": "Address",
+          "offset": 278,
+          "length": 24,
+          "mask": "************************",
+          "maskOffset": 278,
+          "maskLength": 24,
+          "confidenceScore": 1,
+          "tags": [
+            {
+              "name": "Address",
+              "confidenceScore": 1
+            }
+          ]
+        },
+        {
+          "text": "Santa Monica Pier",
+          "category": "Location",
+          "type": "Location",
+          "offset": 336,
+          "length": 17,
+          "mask": "*****************",
+          "maskOffset": 336,
+          "maskLength": 17,
+          "confidenceScore": 0.99,
+          "tags": [
+            {
+              "name": "Location",
+              "confidenceScore": 0.99
+            }
+          ]
+        },
+        {
+          "text": "restaurant",
+          "category": "Location",
+          "type": "Location",
+          "offset": 449,
+          "length": 10,
+          "mask": "**********",
+          "maskOffset": 449,
+          "maskLength": 10,
+          "confidenceScore": 0.96,
+          "tags": [
+            {
+              "name": "Location",
+              "confidenceScore": 0.96
+            }
+          ]
+        },
+        {
+          "text": "last Thursday",
+          "category": "DateTime",
+          "type": "Date",
+          "offset": 460,
+          "length": 13,
+          "mask": "*************",
+          "maskOffset": 460,
+          "maskLength": 13,
+          "confidenceScore": 1,
+          "tags": [
+            {
+              "name": "Date",
+              "confidenceScore": 1
+            },
+            {
+              "name": "DateTime",
+              "confidenceScore": 1
+            }
+          ]
+        },
+        {
+          "text": "949-555-0110",
+          "category": "PhoneNumber",
+          "type": "PhoneNumber",
+          "offset": 839,
+          "length": 12,
+          "mask": "************",
+          "maskOffset": 839,
+          "maskLength": 12,
+          "confidenceScore": 1,
+          "tags": [
+            {
+              "name": "PhoneNumber",
+              "confidenceScore": 1
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    }
+  ],
+  "errors": [],
+  "modelVersion": "2026-05-01"
+}
