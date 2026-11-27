@@ -12,8 +12,18 @@ client = OpenAI(
 
 response = client.responses.create(
     model=deployment_name,
-    instructions="You are an AI assistant that helps people find information.",
-    input="Can you please tell me something about Microsoft Foundry?",
+    # instructions="You are an AI assistant that helps people find information.",
+    # input="Can you please tell me something about Microsoft Foundry?",
+    input=[
+        {
+            "role": "system",
+            "content": "You are an AI assistant that helps people find information."
+        },
+        {
+            "role": "user",
+            "content": "Can you please tell me something about Microsoft Foundry?"
+        }
+    ],
     temperature=0.7,
     max_output_tokens=1000
 )
